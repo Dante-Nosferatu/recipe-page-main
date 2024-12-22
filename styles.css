@@ -1,0 +1,338 @@
+*:root{
+    --Outfit: "Outfit", sans-serif;
+    --young: "Young Serif", serif;
+
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+
+    --Brown-800: hsl(14, 45%, 36%);
+
+    --Rose-800: hsl(332, 51%, 32%);
+    --Rose-50: hsl(330, 100%, 98%);
+
+
+}
+
+body{
+    margin: 0;
+}
+
+
+
+
+.OMMMELET{
+    width: 100%;
+}
+
+.titulo{
+    font-family: var(--young);
+    margin: 30px 40px 30px 40px;
+    line-height: 1;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.part1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.explicacion{
+    margin: auto 40px 30px 37px;
+    width: 300px;
+    font-size: 15.2px;
+
+    color: var(--stone-600);
+
+    font-family: var(--Outfit);
+    font-weight: 400;
+}
+
+.preparacion{
+    margin: auto 30px 0 37px;
+    border-radius: 5%;
+    background-color: var(--Rose-50);
+    font-family: var(--Outfit);
+
+    width: 310px;
+}
+
+.prepa{
+    margin: 0;
+    padding: 20px 0 10px 20px;    
+}
+
+.list1{      
+    padding-bottom: 20px;
+    margin: 0;
+    color: var(--stone-600);    
+}
+
+
+li{
+    padding: 5px 0 5px 10px;
+   
+    font-size: 15px;
+    font-weight: 400;     
+    
+}
+
+.llist{
+    padding-left: 20px;
+}
+
+
+
+.part2{
+    margin: 0px 40px 30px 37px;
+
+    
+    flex-direction: column;
+    align-items: center;
+
+}
+
+
+
+
+
+.titulo2{
+
+    position: relative;
+    right: 65px;
+
+   font-size: 30px;
+
+   font-weight: 400;
+
+   font-family: var(--young);
+   color: var(--Brown-800);
+
+    
+    flex-direction: column;
+    
+    margin: 30px 40px 0px 40px;
+}
+
+.list2{
+    padding-left: 26px;
+    color: var(--stone-600);
+    
+    font-family: var(--Outfit);
+    font-weight: 600;
+}
+
+.gris-linea{
+    width: 320px;
+    opacity: 30%;
+}
+
+
+.serccion2{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.titulo3{
+    font-family: var(--young);
+    color: var(--Brown-800);
+    font-size: 30px;
+    font-weight: 400;
+
+    margin: 30px 40px 30px 40px;
+
+    position: relative;
+    right: 65px;
+}
+
+.list3{
+    margin: 0px 40px 30px 37px;
+    padding-left: 26px;
+    color: var(--stone-600);
+    
+    font-family: var(--Outfit);
+    font-weight: 600;
+
+    line-height: 1.5;
+
+    
+}
+
+    
+.titulo4{
+    font-family: var(--young);
+    color: var(--Brown-800);
+    font-size: 30px;
+    font-weight: 400;
+     margin: 20px 40px 0px 40px;
+
+     
+}
+
+.explicacion-2{
+    margin: 20px 40px 30px 37px;
+    width: 280px;
+    font-size: 15.2px;
+
+    color: var(--stone-600);
+
+    font-family: var(--Outfit);
+    font-weight: 400;
+}
+
+
+.tabble{
+    display: flex;
+    justify-content: space-evenly;
+    
+   position: relative;
+   right: 18px;
+    
+}
+
+.atri{
+    padding: 10px 50px;
+    
+    
+    justify-content: space-evenly;
+}
+
+
+.elem{
+    font-family: var(--Outfit);
+    color: var(--stone-600);
+}
+
+.gramos{
+    font-family: var(--Outfit);
+    font-weight: 800;
+    color: var(--Brown-800);    
+}
+
+table{
+    border-collapse: collapse ;
+}
+
+tr{
+    border-bottom: 1px  solid rgb(216, 216, 216) ;   
+}
+
+
+
+
+@media (min-width:768px){
+    body{
+        background-color: var(--stone-100);
+        margin: auto;
+
+        
+    }
+
+    .for_desktop{
+        width: 700px;
+        background-color: white;
+        
+        border-radius: 30px;
+
+        margin: auto;
+        margin-top: 130px;
+        margin-bottom: 130px;
+
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        
+    }
+
+
+    .OMMMELET{      
+        margin: 40px auto 15px auto;
+        width: 600px;
+
+        border-radius: 10px;
+    }
+    
+
+    .Seccion1{ 
+        display: flex;
+        flex-direction: column;      
+    }
+   
+    .titulo{
+        font-size: 37px;
+        display: flex;
+        position: relative;
+        right: 80px;
+    } 
+
+    .explicacion{
+        width: 600px;
+    }
+
+
+    .preparacion{
+        width: 610px;
+    } 
+
+    .serccion2{
+        display: flex;
+        justify-content: center;
+    }
+    
+    .titulo2{
+        font-size: 37px;
+        display: flex;
+        position: relative;
+        right: 190px;
+    }
+
+
+  .part2{
+    position: relative;
+    right: 60px;
+  }
+    
+
+
+  .gris-linea{
+    width: 600px;
+    opacity: 30%;
+}
+
+
+.tabble{
+    display: flex;
+    justify-content:flex-start ;
+
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+
+.explicacion-2{
+    margin: 20px 40px 30px 40px;
+    width: 700px;
+    
+}
+
+.atri{
+   width: 240px;
+}
+
+.gramos{
+    font-family: var(--Outfit);
+    padding-left: 35px;   
+}
+
+
+}
+
